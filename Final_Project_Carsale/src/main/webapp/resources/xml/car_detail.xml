@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultsets>
+<resultset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <row>
+        <column name="CAR_DETAIL_NUM">010103</column>
+        <column name="CARMODEL_NUM">0101</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CAR_DETAIL">뉴 그랜저 XG (02년~05년)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">2493cc</column>
+        <column name="CAR_HP">190hp</column>
+        <column name="CAR_TORQUE">23kg.m</column>
+        <column name="CAR_LENGTH">4875cm</column>
+        <column name="CAR_WIDTH">1825cm</column>
+        <column name="CAR_HEIGHT">1420cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">현대</column>
+        <column name="CAR_MODELNAME">그랜저 XG (02년~05년)</column>
+        <column name="CAR_MPRICE">2580</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">010201</column>
+        <column name="CARMODEL_NUM">0102</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CAR_DETAIL">YF 쏘나타 (09년~12년)</column>
+        <column name="CAR_TRANS">수동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1591cc</column>
+        <column name="CAR_HP">150hp</column>
+        <column name="CAR_TORQUE">20kg.m</column>
+        <column name="CAR_LENGTH">4510cm</column>
+        <column name="CAR_WIDTH">1560cm</column>
+        <column name="CAR_HEIGHT">1270cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">현대</column>
+        <column name="CAR_MODELNAME">YF 쏘나타 (09년~12년)</column>
+        <column name="CAR_MPRICE">2200</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">020101</column>
+        <column name="CARMODEL_NUM">0201</column>
+        <column name="CARCORP_NUM">02</column>
+        <column name="CAR_DETAIL">EQ900 (15년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">3778cc</column>
+        <column name="CAR_HP">370hp</column>
+        <column name="CAR_TORQUE">40.5kg.m</column>
+        <column name="CAR_LENGTH">5025cm</column>
+        <column name="CAR_WIDTH">1915cm</column>
+        <column name="CAR_HEIGHT">1495cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">현대</column>
+        <column name="CAR_MODELNAME">EQ900 (15년~현재)</column>
+        <column name="CAR_MPRICE">10500</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">030101</column>
+        <column name="CARMODEL_NUM">0301</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CAR_DETAIL">더 뉴 모닝 (15년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">998cc</column>
+        <column name="CAR_HP">78hp</column>
+        <column name="CAR_TORQUE">9.6kg.m</column>
+        <column name="CAR_LENGTH">3595cm</column>
+        <column name="CAR_WIDTH">1595cm</column>
+        <column name="CAR_HEIGHT">1485cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">기아</column>
+        <column name="CAR_MODELNAME">더 뉴 모닝 (15년~현재)</column>
+        <column name="CAR_MPRICE">955</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">050601</column>
+        <column name="CARMODEL_NUM">0505</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CAR_DETAIL">QM5 네오 (14년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">1995cc</column>
+        <column name="CAR_HP">173hp</column>
+        <column name="CAR_TORQUE">36.7kg.m</column>
+        <column name="CAR_LENGTH">4525cm</column>
+        <column name="CAR_WIDTH">1855cm</column>
+        <column name="CAR_HEIGHT">1710cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">르노삼성</column>
+        <column name="CAR_MODELNAME">QM5 네오 (14년~현재)</column>
+        <column name="CAR_MPRICE">2900</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">010101</column>
+        <column name="CARMODEL_NUM">0101</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CAR_DETAIL">그랜저 HG (11년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">2659cc</column>
+        <column name="CAR_HP">200hp</column>
+        <column name="CAR_TORQUE">25.9kg.m</column>
+        <column name="CAR_LENGTH">4910cm</column>
+        <column name="CAR_WIDTH">1860cm</column>
+        <column name="CAR_HEIGHT">1470cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">현대</column>
+        <column name="CAR_MODELNAME">그랜저 HG (11년~현재)</column>
+        <column name="CAR_MPRICE">3200</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">010102</column>
+        <column name="CARMODEL_NUM">0101</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CAR_DETAIL">그랜저 TG (05년~08년)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">2656cc</column>
+        <column name="CAR_HP">195hp</column>
+        <column name="CAR_TORQUE">25.6kg.m</column>
+        <column name="CAR_LENGTH">4895cm</column>
+        <column name="CAR_WIDTH">1850cm</column>
+        <column name="CAR_HEIGHT">1480cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">현대</column>
+        <column name="CAR_MODELNAME">그랜저 TG (05년~08년)</column>
+        <column name="CAR_MPRICE">2970</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">050702</column>
+        <column name="CARMODEL_NUM">0507</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CAR_DETAIL">SM7 노바 (14년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">020202</column>
+        <column name="CARMODEL_NUM">0202</column>
+        <column name="CARCORP_NUM">02</column>
+        <column name="CAR_DETAIL">G80 (16년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">030703</column>
+        <column name="CARMODEL_NUM">0307</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CAR_DETAIL">더 뉴 모하비 (16년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">2959cc</column>
+        <column name="CAR_HP">260hp</column>
+        <column name="CAR_TORQUE">57.1kg.m</column>
+        <column name="CAR_LENGTH">4930cm</column>
+        <column name="CAR_WIDTH">1915cm</column>
+        <column name="CAR_HEIGHT">1810cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">기아</column>
+        <column name="CAR_MODELNAME">더 뉴 모하비 (16년~현재)</column>
+        <column name="CAR_MPRICE">4530</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">030502</column>
+        <column name="CARMODEL_NUM">0305</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CAR_DETAIL">K5 2세대 (15년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1999cc</column>
+        <column name="CAR_HP">168hp</column>
+        <column name="CAR_TORQUE">20.5kg.m</column>
+        <column name="CAR_LENGTH">4855cm</column>
+        <column name="CAR_WIDTH">1860cm</column>
+        <column name="CAR_HEIGHT">1465cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">기아</column>
+        <column name="CAR_MODELNAME">K5 2세대 (15년~현재)</column>
+        <column name="CAR_MPRICE">2685</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">200702</column>
+        <column name="CARMODEL_NUM">2007</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CAR_DETAIL">뉴 7시리즈 (16년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">2993cc</column>
+        <column name="CAR_HP">265hp</column>
+        <column name="CAR_TORQUE">63.2kg.m</column>
+        <column name="CAR_LENGTH">5238mm</column>
+        <column name="CAR_WIDTH">1902mm</column>
+        <column name="CAR_HEIGHT">1479mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">BMW</column>
+        <column name="CAR_MODELNAME">뉴 7시리즈 (16년~현재)</column>
+        <column name="CAR_MPRICE">14160</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">200903</column>
+        <column name="CARMODEL_NUM">2009</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CAR_DETAIL">M5 세단</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">210101</column>
+        <column name="CARMODEL_NUM">2101</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CAR_DETAIL">A1 30 TDI</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">1598cc</column>
+        <column name="CAR_HP">116hp</column>
+        <column name="CAR_TORQUE">25.5kg.m</column>
+        <column name="CAR_LENGTH">3973mm</column>
+        <column name="CAR_WIDTH">1740mm</column>
+        <column name="CAR_HEIGHT">1416mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">아우디</column>
+        <column name="CAR_MODELNAME">A1 30 TDI</column>
+        <column name="CAR_MPRICE">3580</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">210702</column>
+        <column name="CARMODEL_NUM">2107</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CAR_DETAIL">A7 55 TDI 콰트로</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">2967cc</column>
+        <column name="CAR_HP">313hp</column>
+        <column name="CAR_TORQUE">66.3kg.m</column>
+        <column name="CAR_LENGTH">4969mm</column>
+        <column name="CAR_WIDTH">1911mm</column>
+        <column name="CAR_HEIGHT">1420mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">아우디</column>
+        <column name="CAR_MODELNAME">A7 55 TDI 콰트로</column>
+        <column name="CAR_MPRICE">9730</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">210903</column>
+        <column name="CARMODEL_NUM">2109</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CAR_DETAIL">뉴 TT (06년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">220101</column>
+        <column name="CARMODEL_NUM">2201</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CAR_DETAIL">뉴 A클래스 (13년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1595cc</column>
+        <column name="CAR_HP">156hp</column>
+        <column name="CAR_TORQUE">25.5kg.m</column>
+        <column name="CAR_LENGTH">4305mm</column>
+        <column name="CAR_WIDTH">1770mm</column>
+        <column name="CAR_HEIGHT">1445mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">벤츠</column>
+        <column name="CAR_MODELNAME">뉴 A클래스 (13년~현재)</column>
+        <column name="CAR_MPRICE">3690</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">220502</column>
+        <column name="CARMODEL_NUM">2205</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CAR_DETAIL">뉴 S클래스 (14년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">5980cc</column>
+        <column name="CAR_HP">530hp</column>
+        <column name="CAR_TORQUE">87.7kg.m</column>
+        <column name="CAR_LENGTH">5250mm</column>
+        <column name="CAR_WIDTH">1900mm</column>
+        <column name="CAR_HEIGHT">1500mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">벤츠</column>
+        <column name="CAR_MODELNAME">뉴 S클래스 (14년~현재)</column>
+        <column name="CAR_MPRICE">26700</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">220403</column>
+        <column name="CARMODEL_NUM">2204</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CAR_DETAIL">뉴 E클래스 (09~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">230101</column>
+        <column name="CARMODEL_NUM">2302</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CAR_DETAIL">닛산 마치 세단(00년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1240cc</column>
+        <column name="CAR_HP">90hp</column>
+        <column name="CAR_TORQUE">12.3kg.m</column>
+        <column name="CAR_LENGTH">3695mm</column>
+        <column name="CAR_WIDTH">1660mm</column>
+        <column name="CAR_HEIGHT">1525mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">닛산</column>
+        <column name="CAR_MODELNAME">닛산 마치 세단(00년~현재)</column>
+        <column name="CAR_MPRICE">1350</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">230502</column>
+        <column name="CARMODEL_NUM">2305</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CAR_DETAIL">닛산 스카이라인 R34 GTR (05년~현재)</column>
+        <column name="CAR_TRANS">수동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">2568cc</column>
+        <column name="CAR_HP">283hp</column>
+        <column name="CAR_TORQUE">39.9kg.m</column>
+        <column name="CAR_LENGTH">4600mm</column>
+        <column name="CAR_WIDTH">1785mm</column>
+        <column name="CAR_HEIGHT">1360mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">닛산</column>
+        <column name="CAR_MODELNAME">닛산 스카이라인 R34 GTR (05년~현재)</column>
+        <column name="CAR_MPRICE">3700</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">221003</column>
+        <column name="CARMODEL_NUM">2310</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CAR_DETAIL">닛산 캐시카이 1.6 SL (14~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">240401</column>
+        <column name="CARMODEL_NUM">2404</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CAR_DETAIL">볼보 뉴 S60 D5(12년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">1969cc</column>
+        <column name="CAR_HP">225hp</column>
+        <column name="CAR_TORQUE">47.9kg.m</column>
+        <column name="CAR_LENGTH">4635mm</column>
+        <column name="CAR_WIDTH">1865mm</column>
+        <column name="CAR_HEIGHT">1480mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">볼보</column>
+        <column name="CAR_MODELNAME">볼보 뉴 S60 D5(12년~현재)</column>
+        <column name="CAR_MPRICE">5550</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">240602</column>
+        <column name="CARMODEL_NUM">2406</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CAR_DETAIL">볼보 S80 (01년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">240603</column>
+        <column name="CARMODEL_NUM">2408</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CAR_DETAIL">볼보 V50 (10년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">250201</column>
+        <column name="CARMODEL_NUM">2502</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CAR_DETAIL">뉴 ES (12년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">3456cc</column>
+        <column name="CAR_HP">277hp</column>
+        <column name="CAR_TORQUE">35.3kg.m</column>
+        <column name="CAR_LENGTH">4900mm</column>
+        <column name="CAR_WIDTH">1820mm</column>
+        <column name="CAR_HEIGHT">1450mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">렉서스</column>
+        <column name="CAR_MODELNAME">뉴 ES (12년~현재)</column>
+        <column name="CAR_MPRICE">5750</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">250302</column>
+        <column name="CARMODEL_NUM">2503</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CAR_DETAIL">뉴 GS (12년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">250403</column>
+        <column name="CARMODEL_NUM">2504</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CAR_DETAIL">뉴 LS (11년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">260601</column>
+        <column name="CARMODEL_NUM">2606</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CAR_DETAIL">머스탱 GT 컨버터블</column>
+        <column name="CAR_TRANS">수동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">4951cc</column>
+        <column name="CAR_HP">422hp</column>
+        <column name="CAR_TORQUE">54.1kg.m</column>
+        <column name="CAR_LENGTH">4780mm</column>
+        <column name="CAR_WIDTH">1915mm</column>
+        <column name="CAR_HEIGHT">1390mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">포드</column>
+        <column name="CAR_MODELNAME">머스탱 GT 컨버터블</column>
+        <column name="CAR_MPRICE">5850</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">260802</column>
+        <column name="CARMODEL_NUM">2608</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CAR_DETAIL">쿠거 (12년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">260903</column>
+        <column name="CARMODEL_NUM">2609</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CAR_DETAIL">뉴 익스플로러 (12년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">270301</column>
+        <column name="CARMODEL_NUM">2703</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CAR_DETAIL">뉴 CTS (14년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1998cc</column>
+        <column name="CAR_HP">276hp</column>
+        <column name="CAR_TORQUE">40.7kg.m</column>
+        <column name="CAR_LENGTH">4965mm</column>
+        <column name="CAR_WIDTH">1835mm</column>
+        <column name="CAR_HEIGHT">1440mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">캐딜락</column>
+        <column name="CAR_MODELNAME">뉴 CTS (14년~현재)</column>
+        <column name="CAR_MPRICE">5530</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">270602</column>
+        <column name="CARMODEL_NUM">2706</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CAR_DETAIL">STS (05~11년)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">280501</column>
+        <column name="CARMODEL_NUM">2805</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CAR_DETAIL">F430 스쿠데리아 (13년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">4308cc</column>
+        <column name="CAR_HP">510hp</column>
+        <column name="CAR_TORQUE">47.95kg.m</column>
+        <column name="CAR_LENGTH">4512mm</column>
+        <column name="CAR_WIDTH">1923mm</column>
+        <column name="CAR_HEIGHT">1199mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">페라리</column>
+        <column name="CAR_MODELNAME">F430 스쿠데리아 (13년~현재)</column>
+        <column name="CAR_MPRICE">43000</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">281002</column>
+        <column name="CARMODEL_NUM">2810</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CAR_DETAIL">엔초페라리 (10년~12년)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">290201</column>
+        <column name="CARMODEL_NUM">2902</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CAR_DETAIL">뉴 911 (12년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">3800cc</column>
+        <column name="CAR_HP">560hp</column>
+        <column name="CAR_TORQUE">76.5kg.m</column>
+        <column name="CAR_LENGTH">4450mm</column>
+        <column name="CAR_WIDTH">1880mm</column>
+        <column name="CAR_HEIGHT">1296mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">포르쉐</column>
+        <column name="CAR_MODELNAME">뉴 911 (12년~현재)</column>
+        <column name="CAR_MPRICE">25700</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">290602</column>
+        <column name="CARMODEL_NUM">2906</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CAR_DETAIL">뉴 박스터 (13년~15년)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">290803</column>
+        <column name="CARMODEL_NUM">2908</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CAR_DETAIL">뉴 카이엔 (11년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">300101</column>
+        <column name="CARMODEL_NUM">3001</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CAR_DETAIL">뉴 CC (12년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">1968cc</column>
+        <column name="CAR_HP">177hp</column>
+        <column name="CAR_TORQUE">38.8kg.m</column>
+        <column name="CAR_LENGTH">4800mm</column>
+        <column name="CAR_WIDTH">1855mm</column>
+        <column name="CAR_HEIGHT">1420mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">폭스바겐</column>
+        <column name="CAR_MODELNAME">뉴 CC (12년~현재)</column>
+        <column name="CAR_MPRICE">4790</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">300302</column>
+        <column name="CARMODEL_NUM">3003</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CAR_DETAIL">뉴 골프 2.0 (00년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">300403</column>
+        <column name="CARMODEL_NUM">3004</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CAR_DETAIL">더 비틀 (12년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">310201</column>
+        <column name="CARMODEL_NUM">3102</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CAR_DETAIL">디스커버리 스포츠 (15년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">1999cc</column>
+        <column name="CAR_HP">180hp</column>
+        <column name="CAR_TORQUE">43.9kg.m</column>
+        <column name="CAR_LENGTH">4590mm</column>
+        <column name="CAR_WIDTH">1894mm</column>
+        <column name="CAR_HEIGHT">1724mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">랜드로버</column>
+        <column name="CAR_MODELNAME">디스커버리 스포츠 (15년~현재)</column>
+        <column name="CAR_MPRICE">6660</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">310402</column>
+        <column name="CARMODEL_NUM">3104</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CAR_DETAIL">뉴 레인지로버 (13년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">320701</column>
+        <column name="CARMODEL_NUM">3207</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CAR_DETAIL">2008 1.6 e-HDi (13년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">디젤</column>
+        <column name="CAR_CC">1560cc</column>
+        <column name="CAR_HP">99hp</column>
+        <column name="CAR_TORQUE">25.9kg.m</column>
+        <column name="CAR_LENGTH">4160mm</column>
+        <column name="CAR_WIDTH">1740mm</column>
+        <column name="CAR_HEIGHT">1555mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">푸조</column>
+        <column name="CAR_MODELNAME">2008 1.6 e-HDi (13년~현재)</column>
+        <column name="CAR_MPRICE">3120</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">321002</column>
+        <column name="CARMODEL_NUM">3210</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CAR_DETAIL">308 2.0 HDi (10년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">330101</column>
+        <column name="CARMODEL_NUM">3301</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CAR_DETAIL">뉴 CR-V (12년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">2354cc</column>
+        <column name="CAR_HP">190hp</column>
+        <column name="CAR_TORQUE">22.6kg.m</column>
+        <column name="CAR_LENGTH">4535mm</column>
+        <column name="CAR_WIDTH">1820mm</column>
+        <column name="CAR_HEIGHT">1685mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">혼다</column>
+        <column name="CAR_MODELNAME">뉴 CR-V (12년~현재)</column>
+        <column name="CAR_MPRICE">3670</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">330202</column>
+        <column name="CARMODEL_NUM">3302</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CAR_DETAIL">S660 (15년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">330503</column>
+        <column name="CARMODEL_NUM">3305</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CAR_DETAIL">ACCORD (10년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">340101</column>
+        <column name="CARMODEL_NUM">3401</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CAR_DETAIL">고스트 시리즈2 (15년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">6592cc</column>
+        <column name="CAR_HP">563hp</column>
+        <column name="CAR_TORQUE">49.6kg.m</column>
+        <column name="CAR_LENGTH">5399mm</column>
+        <column name="CAR_WIDTH">1948mm</column>
+        <column name="CAR_HEIGHT">1550mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">롤스로이스</column>
+        <column name="CAR_MODELNAME">고스트 시리즈2 (15년~현재)</column>
+        <column name="CAR_MPRICE">41000</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">340302</column>
+        <column name="CARMODEL_NUM">3403</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CAR_DETAIL">레이스 (14년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">340603</column>
+        <column name="CARMODEL_NUM">3406</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CAR_DETAIL">팬텀 (07년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">350101</column>
+        <column name="CARMODEL_NUM">3501</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CAR_DETAIL">피아트 500C 1.4 (11년~현재)</column>
+        <column name="CAR_TRANS">자동</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1368cc</column>
+        <column name="CAR_HP">102hp</column>
+        <column name="CAR_TORQUE">12.8kg.m</column>
+        <column name="CAR_LENGTH">3550mm</column>
+        <column name="CAR_WIDTH">1640mm</column>
+        <column name="CAR_HEIGHT">1555mm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">피아트</column>
+        <column name="CAR_MODELNAME">피아트 500C 1.4 (11년~현재)</column>
+        <column name="CAR_MPRICE">3130</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">350602</column>
+        <column name="CARMODEL_NUM">3506</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CAR_DETAIL">피아트 크로마 (07년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">350803</column>
+        <column name="CARMODEL_NUM">3508</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CAR_DETAIL">프리몬트(12년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">040101</column>
+        <column name="CARMODEL_NUM">0404</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CAR_DETAIL">어메이징 뉴 크루즈 (15년~현재)</column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1362cc</column>
+        <column name="CAR_HP">153hp</column>
+        <column name="CAR_TORQUE">20.4kg.m</column>
+        <column name="CAR_LENGTH">4600cm</column>
+        <column name="CAR_WIDTH">1790cm</column>
+        <column name="CAR_HEIGHT">1475cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">쉐보레</column>
+        <column name="CAR_MODELNAME">어메이징 뉴 크루즈 (15년~현재)</column>
+        <column name="CAR_MPRICE">2155</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">041003</column>
+        <column name="CARMODEL_NUM">0410</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CAR_DETAIL">올란도 (16년~현재)</column>
+        <column name="CAR_TRANS" null="true"></column>
+        <column name="CAR_OIL" null="true"></column>
+        <column name="CAR_CC" null="true"></column>
+        <column name="CAR_HP" null="true"></column>
+        <column name="CAR_TORQUE" null="true"></column>
+        <column name="CAR_LENGTH" null="true"></column>
+        <column name="CAR_WIDTH" null="true"></column>
+        <column name="CAR_HEIGHT" null="true"></column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME" null="true"></column>
+        <column name="CAR_MODELNAME" null="true"></column>
+        <column name="CAR_MPRICE" null="true"></column>
+        <column name="CAR_MPATH" null="true"></column>
+        <column name="CAR_MIMAGE_NUM" null="true"></column>
+    </row>
+    <row>
+        <column name="CAR_DETAIL_NUM">040802</column>
+        <column name="CARMODEL_NUM">0408</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CAR_DETAIL">2016 카마로 SS </column>
+        <column name="CAR_TRANS">오토</column>
+        <column name="CAR_OIL">휘발유</column>
+        <column name="CAR_CC">1998cc</column>
+        <column name="CAR_HP">275hp</column>
+        <column name="CAR_TORQUE">40.7kg.m</column>
+        <column name="CAR_LENGTH">4750cm</column>
+        <column name="CAR_WIDTH">1850cm</column>
+        <column name="CAR_HEIGHT">1020cm</column>
+        <column name="CAR_SIMAGE" null="true"></column>
+        <column name="CAR_CORPNAME">쉐보레</column>
+        <column name="CAR_MODELNAME">2016 카마로 SS</column>
+        <column name="CAR_MPRICE">5098</column>
+        <column name="CAR_MPATH">Boom</column>
+        <column name="CAR_MIMAGE_NUM">10</column>
+    </row>
+</resultset>
+</resultsets>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultsets>
+<resultset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <row>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARCORP">현대</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">02</column>
+        <column name="CARCORP">제네시스</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARCORP">기아</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARCORP">쉐보레(GM대우)</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARCORP">르노삼성</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARCORP">쌍용</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARCORP">BMW</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARCORP">아우디</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARCORP">벤츠</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARCORP">닛산</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARCORP">볼보</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARCORP">렉서스</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARCORP">포드</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARCORP">캐딜락</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARCORP">페라리</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARCORP">포르쉐</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARCORP">폭스바겐</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARCORP">랜드로버</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARCORP">푸조</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARCORP">혼다</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CARCORP">롤스로이스</column>
+    </row>
+    <row>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARCORP">피아트</column>
+    </row>
+</resultset>
+</resultsets>

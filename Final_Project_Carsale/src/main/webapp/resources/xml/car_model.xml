@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultsets>
+<resultset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <row>
+        <column name="CARMODEL_NUM">0101</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">그랜저</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0102</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">쏘나타</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0103</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">아반떼</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0104</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">산타페</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0105</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">스타렉스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0106</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">제네시스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0107</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">에쿠스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0108</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">투싼</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0201</column>
+        <column name="CARCORP_NUM">02</column>
+        <column name="CARMODEL">EQ900</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0202</column>
+        <column name="CARCORP_NUM">02</column>
+        <column name="CARMODEL">G80</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0301</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">모닝</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0302</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">카니발</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0303</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">스포티지</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0304</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">쏘렌토</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0305</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">k5</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0306</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">k7</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0401</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">스파크</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0402</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">마티즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0403</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">라세티</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0404</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">크루즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0109</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">엑센트</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0110</column>
+        <column name="CARCORP_NUM">01</column>
+        <column name="CARMODEL">아이오닉</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0307</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">모하비</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0308</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">K9</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0309</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">레이</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0310</column>
+        <column name="CARCORP_NUM">03</column>
+        <column name="CARMODEL">포르테</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0405</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">알페온</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0406</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">트랙스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0420</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">토스카</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0408</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">카마로</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0409</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">레조</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0410</column>
+        <column name="CARCORP_NUM">04</column>
+        <column name="CARMODEL">올란도</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0501</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARMODEL">SM3</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0502</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARMODEL">SM5</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0503</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARMODEL">SM6</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0504</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARMODEL">QM3</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0505</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARMODEL">QM5</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0506</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARMODEL">QM6</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0507</column>
+        <column name="CARCORP_NUM">05</column>
+        <column name="CARMODEL">SM7</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0601</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">코란도</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0602</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">체어맨</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0603</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">렉스턴</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0604</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">액티언</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0605</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">무쏘</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0606</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">카이런</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0607</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">로디우스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0608</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">티볼리</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0609</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">이스타나</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">0610</column>
+        <column name="CARCORP_NUM">06</column>
+        <column name="CARMODEL">칼리스타</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2001</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">1시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2002</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">2시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2003</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">3시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2004</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">4시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2005</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">5시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2006</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">6시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2007</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">7시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2008</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">8시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2009</column>
+        <column name="CARCORP_NUM">20</column>
+        <column name="CARMODEL">M시리즈</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2101</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A1</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2102</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A2</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2103</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A3</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2104</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A4</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2105</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A5</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2106</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A6</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2107</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A7</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2108</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">A8</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2109</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">TT</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2110</column>
+        <column name="CARCORP_NUM">21</column>
+        <column name="CARMODEL">Q7</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2201</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">A-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2202</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">B-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2203</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">C-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2204</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">E-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2205</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">S-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2206</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">CL-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2207</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">CLA-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2208</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">CLS-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2209</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">GL-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2210</column>
+        <column name="CARCORP_NUM">22</column>
+        <column name="CARMODEL">GLA-클래스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2301</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">로그</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2302</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">마치</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2303</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">맥시마</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2304</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">무코</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2305</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">스카이라인</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2306</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">알티마</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2307</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">큐브</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2308</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">타이탄</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2309</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">쥬크</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2310</column>
+        <column name="CARCORP_NUM">23</column>
+        <column name="CARMODEL">캐시카이</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2401</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">C30</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2402</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">C70</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2403</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">S40</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2404</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">S60</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2405</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">S70</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2406</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">S80</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2407</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">S90</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2408</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">V50</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2409</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">V60</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2410</column>
+        <column name="CARCORP_NUM">24</column>
+        <column name="CARMODEL">V70</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2501</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">IS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2502</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">ES</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2503</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">GS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2504</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">LS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2505</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">RC</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2506</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">LX</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2507</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">RX</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2508</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">SC</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2509</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">GX</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2510</column>
+        <column name="CARCORP_NUM">25</column>
+        <column name="CARMODEL">NX</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2601</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">F150</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2602</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">F250</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2603</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">F350</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2604</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">GT</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2605</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">레인저</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2606</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">머스탱</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2607</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">윈드스타</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2608</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">쿠가</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2609</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">익스플로러</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2610</column>
+        <column name="CARCORP_NUM">26</column>
+        <column name="CARMODEL">포커스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2701</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">ATS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2702</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">BLS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2703</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">CTS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2704</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">DTS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2705</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">SRX</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2706</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">STS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2707</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">XLR</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2708</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">드빌</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2709</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">스빌</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2710</column>
+        <column name="CARCORP_NUM">27</column>
+        <column name="CARMODEL">컨코어</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2801</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">FF</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2802</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">F40</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2803</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">F50</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2804</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">F355</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2805</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">F430</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2806</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">348</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2807</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">360</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2808</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">456</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2809</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">550</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2810</column>
+        <column name="CARCORP_NUM">28</column>
+        <column name="CARMODEL">엔초페라리</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2901</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">718</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2902</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">911</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2903</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">928</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2904</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">944</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2905</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">마칸</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2906</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">박스터</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2907</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">카이맨</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2908</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">카이엔</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2909</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">카레라GT</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">2910</column>
+        <column name="CARCORP_NUM">29</column>
+        <column name="CARMODEL">파나메라</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3001</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">CC</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3002</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">EOS</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3003</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">골프</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3004</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">비틀</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3005</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">사란</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3006</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">시로코</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3007</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">제터</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3008</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">파사트</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3009</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">투아렉</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3010</column>
+        <column name="CARCORP_NUM">30</column>
+        <column name="CARMODEL">티구안</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3101</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARMODEL">디스커버리</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3102</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARMODEL">디스커버리-스포츠</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3103</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARMODEL">디펜터</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3104</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARMODEL">레인지로버</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3105</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARMODEL">레인지로버-이보크</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3106</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARMODEL">레인지로버-스포츠</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3107</column>
+        <column name="CARCORP_NUM">31</column>
+        <column name="CARMODEL">프리랜더</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3201</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">107</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3202</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">1007</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3203</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">205</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3204</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">206</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3205</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">207</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3206</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">208</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3207</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">2008</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3208</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">306</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3209</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">307</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3210</column>
+        <column name="CARCORP_NUM">32</column>
+        <column name="CARMODEL">308</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3301</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">CR-V</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3302</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">S660</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3303</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">비트</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3304</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">시빅</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3305</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">어코드</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3306</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">엘리멘트</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3307</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">크로스로드</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3308</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">인사이트</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3309</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">레전드</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3310</column>
+        <column name="CARCORP_NUM">33</column>
+        <column name="CARMODEL">인스파이어</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3401</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CARMODEL">고스트</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3402</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CARMODEL">던</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3403</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CARMODEL">레이스</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3404</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CARMODEL">실버스퍼</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3405</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CARMODEL">코니쉬</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3406</column>
+        <column name="CARCORP_NUM">34</column>
+        <column name="CARMODEL">팬텀</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3501</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">500</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3502</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">500X</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3503</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">란치아</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3504</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">바르게타</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3505</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">쿠페</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3506</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">크로마</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3507</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">푼토</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3508</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">프리몬트</column>
+    </row>
+    <row>
+        <column name="CARMODEL_NUM">3509</column>
+        <column name="CARCORP_NUM">35</column>
+        <column name="CARMODEL">멀티피아</column>
+    </row>
+</resultset>
+</resultsets>

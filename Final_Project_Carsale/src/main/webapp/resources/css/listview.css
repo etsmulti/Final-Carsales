@@ -1,0 +1,72 @@
+.listview .pen_img{
+	width: 10px;
+	height: 10px;
+}
+.listview th{
+	border-bottom: 1px solid #dbdbdb;
+    background-color: #fff;
+    letter-spacing: -1px;
+    height: 25px;
+    padding: 2px 0 0 0;
+    color: #707070;
+    font-weight: normal;
+    text-align: center;
+    font-family: 돋움,dotum,Apple Gothic,sans-serif;
+	overflow: hidden;
+}
+
+.listview td{
+	border-bottom: 1px solid #dbdbdb;
+    background-color: #fff;
+    letter-spacing: -1px;
+    height: 25px;
+    padding: 2px 0 0 0;
+    color: #707070;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.listview strong{
+	color: red;
+	margin-top:30px; 
+}
+
+table{
+	border-top: 1px solid #dbdbdb;
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 2px solid #aaafbc;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+table img{
+	width:120px;
+	height:82px;
+}
+
+ .title {
+	display: block;
+}
+
+ .status span{
+	margin-left: 10px;
+}
+
+.price strong{
+	color: red;
+}
+ .trans{
+	width: 30px;
+}
+
+ .oil{
+	width: 30px;
+}
+ .trans{
+	width: 30px;
+}
+

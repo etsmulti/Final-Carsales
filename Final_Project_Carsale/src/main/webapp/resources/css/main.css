@@ -1,0 +1,25 @@
+
+#myCarousel{
+	height: 400px;
+}
+
+.carousel-inner {
+	width: 1024px;
+	height: 400px;
+}
+
+.carousel-caption h1 {
+	color: black !important;
+	margin-bottom: 20px;
+	font: bold;
+}
+
+.carousel-caption h2 {
+	color: black !important;
+	margin-bottom: 250px;
+	font: bold;
+}
+
+.item{
+	height: 400px;
+}

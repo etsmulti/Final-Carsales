@@ -1,0 +1,245 @@
+.note {
+	width: 100%;
+	height: 350px;
+	text-align: left;
+	float: left;
+	border: 2px solid red;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.note h2 {
+	margin-top: 5px;
+	margin-left: 5px;
+	color: red;
+	font-size: 25px;
+}
+
+.sellqna {
+	float: left;
+	border: 1px;
+	width: 33%;
+	height: 100%;
+}
+
+.sellqna li {
+	list-style: none;
+}
+
+.sellqna li a {
+	color: black;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.sellqna li a:HOVER {
+	color: red;
+	font-weight: bolder;
+}
+
+.sell_mycar {
+	display: block;
+	height: 50%;
+	padding: 5px;
+	font-size: 13px;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.qna {
+	height: 50%;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.index_sch {
+	padding: 5px;
+	width: 33%;
+	height: 100%;
+	float: left;
+	border-right: 0.5px solid #c4c4c4;
+	border-left: 0.5px solid #c4c4c4;
+}
+
+.searcher {
+	position: relative;
+	width: 290px;
+	margin: 10px auto;
+	margin-top: 25px;
+}
+
+ul.tab {
+	padding: 0;
+}
+
+ul.tab li {
+	list-style-type: none;
+	width: 50%;
+	height: 40px;
+	float: left;
+}
+
+ul.tab li a {
+	border-bottom: 0.5px solid #c4c4c4;
+	display: block;
+	color: black;
+	line-height: 40px;
+	text-align: center;
+}
+
+ul.tab li a.selected {
+	border: 0.5px solid #c4c4c4;
+	border-bottom: none;
+	text-decoration: none;
+	color: red;
+	cursor: default;
+}
+
+.maker, .model, .detail {
+	border: 1px solid grey;
+	margin: 15px;
+}
+
+.panel {
+	clear: both;
+	border: 0.5px solid #c4c4c4;
+	border-top: none;
+	width: 290px;
+	padding-left: 0px;
+}
+
+.panel li {
+	list-style-type: none;
+	padding: 10px;
+	text-indent: 1em;
+	color: #333;
+}
+
+.panel li div {
+	cursor: pointer;
+}
+
+.printmodellist, .printdetaillist, .printmakerlist {
+	border: 1px solid red;
+	width: 33.5%;
+	height: 100%;
+	margin-left: 66.3%;
+	margin-top: 0px;
+}
+
+.viewList {
+	position: absolute;
+	width: 335px;
+	height: 300px;
+	right: 10px;
+	background: white;
+}
+
+.viewList ul {
+	padding: 1px;
+	margin-right: 5px;
+	width: 105px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+
+.viewList ul li {
+	list-style: none;
+	overflow: hidden;
+	line-height: 18px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-wrap: normal;
+	display: block;
+}
+
+.viewList ul li a {
+	height: 25px;
+	padding-left: 5px;
+	margin: 0 4px 0 0;
+	line-height: 27px;
+	letter-spacing: 0;
+}
+
+#detailList ul {
+	width: 160px;
+	padding: 0px;
+	margin-right: 5px;
+}
+
+.listTitle {
+	width: 100%;
+	padding-left: 15px;
+	font-size: 1em;
+	color: #333;
+	display: block;
+}
+
+.listTitle strong {
+	color: red;
+	font-weight: bold;
+}
+
+.panel .selected {
+	color: red;
+}
+
+.btn {
+	width: 100%;
+}
+
+.btn a {
+	display: block;
+	height: 28px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid #b1001a;
+	background: #cc001e;
+}
+
+.maxim {
+	padding: 5px;
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+
+.maxim img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100px;
+	height: 60px;
+}
+
+.maxim a {
+	display: block;
+	position: relative;
+	height: 80px;
+	padding-left: 120px;
+	letter-spacing: -1px;
+	color: #333;
+}
+
+.maxim a:HOVER {
+	color: red;
+}
+
+.maxim li {
+	list-style: none;
+}
+
+.maxim strong {
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	text-overflow: ellipsis;
+	word-wrap: normal;
+}
+
+.maxim ul {
+	padding: 0;
+	width:300px;
+	margin-top: 25px;
+}

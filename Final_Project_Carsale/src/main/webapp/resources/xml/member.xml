@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultsets>
+<resultset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <row>
+        <column name="MEMBER_ID">1123</column>
+        <column name="MEMBER_PW">2</column>
+        <column name="MEMBER_NAME">11</column>
+        <column name="MEMBER_JUMIN1">1</column>
+        <column name="MEMBER_JUMIN2">1111111</column>
+        <column name="MEMBER_EMAIL">@</column>
+        <column name="MEMBER_EMAIL_GET">YES</column>
+        <column name="MEMBER_MOBILE" null="true"></column>
+        <column name="MEMBER_PHONE" null="true"></column>
+        <column name="MEMBER_ZIPCODE"> - </column>
+        <column name="MEMBER_ADDR1" null="true"></column>
+        <column name="MEMBER_ADDR2" null="true"></column>
+        <column name="MEMBER_ADMIN">0</column>
+        <column name="MEMBER_JOIN_DATE">2016-09-27 15:40:42.0</column>
+        <column name="MEMBER_IMAGE">여기저기</column>
+    </row>
+</resultset>
+</resultsets>
