@@ -22,7 +22,7 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link rel=stylesheet href="css/global.css">
+<link rel=stylesheet href="./resources/css/global.css">
 
 <style type="text/css">
 table {
@@ -32,7 +32,8 @@ table {
 	font-size: small;
 	font-weight: bold;
 }
-td{
+
+td {
 	padding-left: 10px;
 }
 </style>
@@ -44,6 +45,10 @@ td{
 	<h2 align="center">자유 게시판</h2>
 	<div align="center">
 		<table>
+			<tr>
+				<th height="15">글 번호</th>
+				<td><%=board.getBoardNum()%></td>
+			</tr>
 			<tr>
 				<th height="15">제목</th>
 				<td><%=board.getBoardSubject()%></td>
@@ -77,12 +82,13 @@ td{
 			<tr>
 				<td><a href="./boardList.bo"> [목록] </a></td>
 				<td>
-					<%-- <%
-					if (session.getAttribute("id").equals(board.getMemberId())) {
-				%> <%
- 	}
- %>--%> <a href="./boardDelete.bo?num=<%=board.getBoardNum()%>">
-						[삭제] </a>
+					<%
+						if (session.getAttribute("id").equals(board.getMemberId())) {
+					%> 
+					<a href="./boardDelete.bo?num=<%=board.getBoardNum()%>"> [삭제] </a>
+					<%
+				 		}
+				 	%> 
 				</td>
 			</tr>
 		</table>

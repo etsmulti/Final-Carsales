@@ -15,7 +15,7 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel=stylesheet href="./resources/css/global.css">
-<script	src="./resources/script/member_join.js"></script>
+<script	src="./resources/script/member_join2.js"></script>
  
 <style type="text/css">
 .table {
@@ -33,16 +33,15 @@ table p {
 	<!-- 헤더 끝 -->
 	<div class="container">
 		<h2>Join Page</h2>
-		<form name="joinform" id="joinform" action="./MemberJoinAction.me"
-			method="post" enctype="multipart/form-data" onsubmit="return check()">
+		<form name="joinform" id="joinform" action="./MemberJoinProcess.me"
+			method="post" enctype="multipart/form-data" onsubmit="return join_check()">
 			<p align="center">
 			<table class="table">
 				<tr>
 					<td bgcolor="#f5f5f5"><p>아이디</p></td>
 					<td>&nbsp;&nbsp;&nbsp;
 						<div class="col-sm-6">
-							<input type="text" class="form-control" name="id" 
-								placeholder="ID">
+							<input type="text" class="form-control" id="id" name="id" placeholder="ID">
 						</div> <input type="button" name="confirm_id" value="중복확인"
 						onclick="openConfirmId(this.form)" />
 					</td>
@@ -51,8 +50,7 @@ table p {
 					<td bgcolor="#f5f5f5"><p>비밀번호</p></td>
 					<td>&nbsp;&nbsp;&nbsp;
 						<div class="col-sm-6">
-							<input type="password" class="form-control" name="pw" id="pw"
-								placeholder="PASSWORD">
+							<input type="password" class="form-control" name="pw" id="pw" placeholder="PASSWORD">
 						</div>
 					</td>
 				</tr>
@@ -60,7 +58,7 @@ table p {
 					<td bgcolor="#f5f5f5"><p>비밀번호확인</p></td>
 					<td>&nbsp;&nbsp;&nbsp;
 						<div class="col-sm-6">
-							<input type="password" class="form-control" name="pw2" id="pw2"
+							<input type="password" class="form-control" name="pw_confirm" id="pw_confirm"
 								placeholder="Password">
 						</div>
 					</td>
@@ -83,12 +81,12 @@ table p {
 					<td bgcolor="#f5f5f5"><p>주민등록번호</p></td>
 					<td>&nbsp;&nbsp;&nbsp;
 						<div class="col-sm-3">
-							<input type="text" class="form-control" name="jumin1" id="jumin-1"
+							<input type="text" class="form-control" name="jumin_front" id="jumin_front"
 								placeholder="6 Chracters">
 						</div>
 						<div class="col-sm-1">-</div>
 						<div class="col-sm-3">
-							<input type="text" class="form-control" name="jumin2" id="jumin-3"
+							<input type="text" class="form-control" name="jumin_back" id="jumin_back"
 								placeholder="7 Chracters">
 						</div>
 					</td>
@@ -102,15 +100,17 @@ table p {
 						</div>
 						<div class="col-sm-1">@</div>
 						<div class="col-sm-3">
-							<input type="text" class="form-control" name="naver" id="naver"
+							<input type="text" class="form-control" name="domain" id="domain"
 								placeholder="naver.com">
 						</div>
 				</tr>
 				<tr>
 					<td bgcolor="#f5f5f5"><p>메일수신 여부</p></td>
-					<td>&nbsp;&nbsp;&nbsp; <input type="radio"
-						name="MEMBER_EMAIL_GET" value="YES" checked /> <font size="2">수신</font>
-						&nbsp;&nbsp;<input type="radio" name="MEMBER_EMAIL_GET" value="NO" />
+					<td>&nbsp;&nbsp;&nbsp; 
+						<input type="radio"	name="MEMBER_EMAIL_GET" value="YES" checked /> 
+						<font size="2">수신</font>
+						&nbsp;&nbsp;
+						<input type="radio" name="MEMBER_EMAIL_GET" value="NO" />
 						<font size="2">수신 안함</font>
 					</td>
 				</tr>
@@ -136,22 +136,22 @@ table p {
 					<td bgcolor="#f5f5f5"><p>우편번호</p></td>
 					<td>&nbsp;&nbsp;&nbsp;
 						<div class="col-sm-2">
-							<input type="text" class="form-control" name="zip1" id="zip1"
+							<input type="text" class="form-control" name="zip_front" id="zip_front"
 								placeholder="Post">
 						</div>
 						<div class="col-sm-1">-</div>
 						<div class="col-sm-2">
-							<input type="text" class="form-control" name="zip2" id="zip2"
+							<input type="text" class="form-control" name="zip_back" id="zip_back"
 								placeholder="Post">
-						</div> <input type="button" name="zipcode" value="우편번호 검색"
-						onclick="openZipcode(this.form)" />
+						</div> 
+						<input type="button" name="zipcode" value="우편번호 검색"	onclick="openZipcode(this.form)" />
 					</td>
 				</tr>
 				<tr>
 					<td bgcolor="#f5f5f5"><p>집주소</p></td>
 					<td>&nbsp;&nbsp;&nbsp;
 						<div class="col-sm-11">
-							<input type="text" class="form-control" name="addr1" id="addr1"
+							<input type="text" class="form-control" name="addr_front" id="addr_front"
 								placeholder="Address">
 						</div>
 					</td>
@@ -160,7 +160,7 @@ table p {
 					<td bgcolor="#f5f5f5"><p>상세주소</p></td>
 					<td>&nbsp;&nbsp;&nbsp;
 						<div class="col-sm-11">
-							<input type="text" class="form-control" name="addr2" id="addr2"
+							<input type="text" class="form-control" name="addr_back" id="addr_back"
 								placeholder="Details">
 						</div>
 					</td>
@@ -177,7 +177,11 @@ table p {
 			</table>
 			<table class="table">
 				<tr>
-					<td align="center"><br /> <input type="submit" value="확 인" /></td>
+					<td align="center">
+						<br/> 
+						<input type="submit" value="확 인" />
+						<button type="button" onclick="join_cancel()">취소</button>
+					</td>
 				</tr>
 			</table>
 		</form>

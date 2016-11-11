@@ -1,10 +1,10 @@
-<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ page import="java.util.List"%>
 <%@ page import="spring.mvc.model.*"%>
 
 <%
-	List list = (List) request.getAttribute("list");
+	List<BoardBean> list = (List<BoardBean>)request.getAttribute("list");
 %>
 
 <!DOCTYPE html>
@@ -23,8 +23,8 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link rel=stylesheet href="css/global.css">
-<link rel=stylesheet href="css/listview.css">
+<link rel=stylesheet href="./resources/css/global.css">
+<link rel=stylesheet href="./resources/css/listview.css">
 <!-- CSS, Script End -->
 <style type="text/css">
 .pen {
@@ -74,32 +74,29 @@ table {
 
 			<%
 				for (int i = 0; i < list.size(); i++) {
-					BoardDTO board = (BoardDTO) list.get(i);
+					BoardBean board = (BoardBean)list.get(i);
 			%>
 
 			<tr align="center">
 				<td class="line"><%=board.getBoardNum()%></td>
 				<td class="line"><%=board.getMemberId()%></td>
-				<td class="line"><a
-					href="./boarddetail.bo?num=<%=board.getBoardNum()%>"> <%=board.getBoardSubject()%>
-				</a></td>
+				<td class="line">
+					<a href="./boardDetail.bo?num=<%=board.getBoardNum()%>"> <%=board.getBoardSubject()%></a>
+				</td>
 				<td class="line"><%=board.getBoardDate()%></td>
-
 				<td id="good"><button><%=board.getBoardGood()%></button></td>
-
 			</tr>
-
 			<%
 				}
 			%>
 
 		</table>
 		<p>
-			<a href="./boardwrite.bo"> <img class="pen_img"
+			<a href="./boardWrite.bo"> <img class="pen_img"
 				src="http://cafeimgs.naver.net/cafe4/ico-btn-write.gif" width="10"
 				height="10" /><span class="pen">글쓰기</span></a>
 		</p>
 	</div>
 
 </body>
-</html> --%>
+</html>

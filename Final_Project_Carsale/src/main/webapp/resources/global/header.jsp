@@ -21,7 +21,7 @@ function goSearch(){
 		<li><a href="./CarsaleList.cs?dmaker=&dmodel=&ddetail=" class="gnb1" title="검색"><strong>매물
 					검색</strong></a></li>
 		<li><a href=# class="gnb2" title="내차 판매"><strong>내차 판매</strong></a></li>
-		<li><a href="./boardlist.bo" class="gnb3" title="자유 게시판"><strong>자유
+		<li><a href="./boardList.bo" class="gnb3" title="자유 게시판"><strong>자유
 					게시판</strong></a></li>
 	</ul>
 	<% if(login){ %>

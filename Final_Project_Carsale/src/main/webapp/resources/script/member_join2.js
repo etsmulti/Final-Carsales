@@ -34,7 +34,7 @@ function join_check() {
 		return false;
 	}
 	if ($.trim($("#jumin_back").val()) == ""
-			|| ($.trim($("#jumin_front").val()).length < 7)) {
+			|| ($.trim($("#jumin_back").val()).length < 7)) {
 		alert("주민등록번호 뒤의 7자리를 입력해 주세요.");
 		forms.jumin_back.focus();
 		return false;
@@ -90,7 +90,7 @@ function join_cancel() {
 
 function openConfirmId(joinform) {
 	var id1 = joinform.id.value;
-	var url = "./MemberIDCheckAction.me?id=" + joinform.id.value;
+	var url = "./MemberIDCheck.me?id=" + joinform.id.value;
 
 	if (id1.length == 0) {
 		alert("아이디를 입력하세요.");

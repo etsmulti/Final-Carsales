@@ -3,30 +3,20 @@ package spring.mvc.model;
 import java.util.Date;
 		
 public class BoardBean {
-        /** BOARD_NUM. */
-        private Integer boardNum;
-        /** MEMBER_ID */
-        private String memberId;
-        /** BOARD_SUBJECT. */
-        private String boardSubject;
-        /** BOARD_CONTENT. */
-        private String boardContent;
-        /** BOARD_GOOD. */
-        private Integer boardGood;
-        /** BOARD_COUNT. */
-        private Integer boardCount;
-        /** BOARD_REPLY_NUM. */
-        private Integer boardReplyNum;
-        /** BOARD_FILE01. */
-        private String boardFile01;
-        /** BOARD_FILE02. */
-        private String boardFile02;
-        /** BOARD_FILE03. */
-        private String boardFile03;
-        /** BOARD_FILE04. */
-        private String boardFile04;
-        /** BOARD_DATE. */
-        private Date boardDate;
+        /** BOARD_NUM. */        private Integer boardNum;
+        /** MEMBER_ID */        private String memberId;
+        /** BOARD_SUBJECT. */        private String boardSubject;
+        /** BOARD_CONTENT. */        private String boardContent;
+        /** BOARD_GOOD. */        private Integer boardGood;
+        /** BOARD_COUNT. */        private Integer boardCount;
+        /** BOARD_REPLY_NUM. */        private Integer boardReplyNum;
+        /** BOARD_FILE01. */        private String boardFile01;
+        /** BOARD_FILE02. */        private String boardFile02;
+        /** BOARD_FILE03. */        private String boardFile03;
+        /** BOARD_FILE04. */        private String boardFile04;
+        /** BOARD_DATE. */        private Date boardDate;
+        
+        
         public Integer getBoardNum() {
                 return boardNum;
         }

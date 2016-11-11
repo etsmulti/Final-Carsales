@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+   <!-- 관리자 단 게시판 myBatis용 -->
+   
+<mapper namespace="spring.mvc.model.BoardBean"> 
+	<resultMap type="spring.mvc.model.BoardBean" id="boardBean">
+		<result column="BOARD_NUM" property="boardNum"/>
+		<result column="MEMBER_ID" property="memberId"/>
+		<result column="BOARD_SUBJECT" property="boardSubject"/>
+		<result column="BOARD_CONTENT" property="boardContent"/>
+		<result column="BOARD_GOOD" property="boardGood"/>
+		<result column="BOARD_COUNT" property="boardCount"/>
+		<result column="BOARD_REPLY_NUM" property="boardReplyNum"/>
+		<result column="BOARD_FILE01" property="boardFile01"/>
+		<result column="BOARD_FILE02" property="boardFile02"/>
+		<result column="BOARD_FILE03" property="boardFile03"/>
+		<result column="BOARD_FILE04" property="boardFile04"/>
+		<result column="BOARD_DATE" property="boardDate"/>
+	</resultMap>
+	
+    <!--  게시판 전체 목록보기 -->
+    <select id="board_list" resultMap="boardBean">
+		select * from CAR_BOARD order by board_num asc
+		<!-- 
+		where rnum<![CDATA[>=]]>#{startrow} 
+		and rnum<![CDATA[<=]]>#{endrow} -->
+    </select>
+    
+    <!--  게시판 총 게시물 수 -->
+	<select id="board_count" resultType="int">
+	  select count(board_num) from car_board
+	</select>
+	
+	
+    <!-- 게시판 상세 내용  -->
+	<select id="board_detail" parameterType="int" resultMap="boardBean">
+	  select * from CAR_BOARD where board_num=#{num}
+	</select>
+	
+	<!-- 게시판 내용 저장 -->
+	<insert id="board_insert" parameterType="boardBean">
+		insert into car_board(board_num, member_id,board_subject,board_content,
+	 		board_good,board_count,board_reply_num,board_file01,board_file02,
+	 		board_file03,board_file04,board_date) 
+	 	values(#{boardNum},#{memberId},#{boardSubject},#{boardContent}, 
+	 	0,0,0,0,0,0,0,sysdate)
+	 	
+	 	<!-- insert into car_board(board_num, member_id,board_subject,board_content,
+	 						board_good,board_count,board_reply_num,board_file01,board_file02,
+	 						board_file03,board_file04,board_date) 
+	 			values(3,'22','아리랑','스리랑',0,3,0,0,0,0,0,sysdate)    -->
+	</insert>	
+	
+	
+	<delete id="board_delete" parameterType="int">
+	  delete from car_board where board_num=#{board_num}
+	</delete>
+	
+	<select id="board_last_num" resultType="String">
+	  select MAX(board_num) from car_board
+	</select>
+			
+	<!-- 
+    관리자 검색 목록(제목) 보기(미완성)
+    <select id="aBoard_search_list1" parameterType="java.util.Map" resultType="adminBoard">	       
+		select * from (select rownum as rnum, board_no,board_name,		
+		     board_title,board_cont,board_ref,board_step,board_level,
+		     board_hit,board_regdate 
+			 from (select * from springBoard order by board_ref desc, board_step asc) 
+			 where board_title like #{param1} and rownum <![CDATA[<=]]> #{param2})
+			 where rnum >= #{param3}	 		
+	</select>	
+    관리자 검색 목록(내용) 보기(미완성)-$(find_field) 사용 예
+    <select id="aBoard_search_list2" parameterType="java.util.Map" resultType="adminBoard">
+        select * from (select rownum as rnum, board_no,board_name,		
+		     board_title,board_cont,board_ref,board_step,board_level,
+		     board_hit,board_regdate 
+			 from (select * from springBoard order by board_ref desc, board_step asc) 
+			 where $(find_field) like #{param1} and rownum <![CDATA[<=]]> #{param2})
+			 where rnum >= #{param3}        
+	</select>		 
+	
+	관리자 게시판 검색결과(제목) 총 게시물 수
+	<select id="aboardfind_cnt1" resultType="int"
+	        parameterType="String">
+	  select count(board_no) from springBoard
+	     where board_title like #{find_name}
+	</select>
+	관리자 게시판 검색결과(내용) 총 게시물 수
+	<select id="aboardfind_cnt2" resultType="int"
+	        parameterType="String">
+	  select count(board_no) from springBoard
+	     where board_cont like #{find_name}
+	</select>
+	관리자 게시판 저장
+	<insert id="aboard_insert" 
+	         parameterType="adminBoard">
+	 insert into springBoard values(springBoard_seq.nextval,
+	 #{board_name}, #{board_title}, #{board_cont},
+	 #{board_pwd},0,springBoard_seq.nextval,0,0,sysdate)         
+	</insert>	
+   
+	관리자 게시판 수정
+	<update id="aboardEdit" 
+	         parameterType="adminBoard">
+	 update springBoard set board_name=#{board_name},
+	 board_title=#{board_title},board_cont=#{board_cont}
+	 where board_no=#{board_no}       
+	</update>
+	관리자 게시판 삭제
+	<delete id="aboard_Del" parameterType="int">
+	  delete from springBoard where board_no=#{board_no}
+	</delete>  -->
+</mapper>
+

@@ -14,7 +14,6 @@
 <style type="text/css">
     table{
         width:70%;
-       
     }
 </style>
 
@@ -24,7 +23,6 @@
     <form name="delete" action="./boardDelete.bo?num=<%=num %>" 
 	method="post">
     <table>
-
         <tr>
 	        <td colspan=2 align=center>
 		        <a href="javascript:delete.submit()">삭제</a>
@@ -33,8 +31,6 @@
 	       </td>
         </tr>
      </table>
-     
-     
      </form>
      <tr bgcolor="cccccc">
          <td colspan="2" style="height:1px;"></td>

@@ -1,18 +1,7 @@
 package spring.mvc.dao;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.sql.DataSource;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +11,7 @@ import spring.mvc.model.BoardBean;
 
 @Repository
 public class BoardDAO {
-	/* myBatis 객체 주입(설정파일-admin_board2.xml) */
+	
 	@Autowired
 	private SqlSessionTemplate sqlSession;
 
@@ -30,26 +19,55 @@ public class BoardDAO {
 	}
 
 	// 글등록
-	public boolean boardInsert(BoardBean boardDto) {
-		return true;
+	public int boardInsert(BoardBean boardDTO) {
+		boardDTO.setBoardNum(getBoardLastNum()+1);
+		
+		int result = this.sqlSession.insert("board_insert", boardDTO);
+		
+		return result;
 	}
 
-	public List<BoardBean> getBoardList(int page, int limit) {
+/*	public List<BoardBean> getBoardList(int page, int limit) {
 		int startrow = (page - 1) * 7 + 1;
 		int endrow = startrow + limit - 1;
 
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		map.put("startrow", startrow);
 		map.put("endrow", endrow);
-		List<BoardBean> list = this.sqlSession.selectList("aBoard_list", map);
+		List<BoardBean> list = this.sqlSession.selectList("board_list", map);
 		return list;
 	}
-
-	public BoardBean getBoardDetail(int num) {
-		return new BoardBean();
+	*/
+	
+	public List<BoardBean> getBoardList() {
+		List<BoardBean> list = this.sqlSession.selectList("board_list");
+		return list;
 	}
+	
+	public int getBoardCount() {
+			int count=0;
+			count=this.sqlSession.selectOne("board_count");
+			return count;
+	}
+	
+	public int getBoardLastNum() {
+		String res=this.sqlSession.selectOne("board_last_num");
+		if(res==null)
+			res="0";
+		
+		int last_num = Integer.parseInt(res);
+		
+		return last_num;
+}
 
+	
+	public BoardBean getBoardDetail(int num) {
+		BoardBean bb = this.sqlSession.selectOne("board_detail",num);
+		return bb;
+	}
+	
 	public boolean boardDelete(int num) {
+		this.sqlSession.delete("board_delete",num);
 		return true;
 	}
 

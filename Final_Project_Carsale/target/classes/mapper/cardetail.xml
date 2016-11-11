@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="spring.mvc.model.CarMdetailBean"> 
+	<resultMap type="spring.mvc.model.CarMdetailBean" id="cardetailBean">
+		<result column="CAR_DETAIL_NUM" property="carDetailNum"/>
+		<result column="CARMODEL_NUM" property="carModelNum"/>
+		<result column="CARCORP_NUM" property="carCorpNum"/>
+		<result column="CAR_DETAIL" property="carDetail"/>
+		<result column="CAR_TRANS" property="carTrans"/>
+		<result column="CAR_OIL" property="carOil"/>
+		<result column="CAR_CC" property="carCc"/>
+		<result column="CAR_HP" property="carHp"/>
+		<result column="CAR_TORQUE" property="carTorque"/>
+		<result column="CAR_LENGTH" property="carLength"/>
+		<result column="CAR_WIDTH" property="carWidth"/>
+		<result column="CAR_HEIGHT" property="carHeight"/>
+		<result column="CAR_SIMAGE" property="carSimage"/>
+		<result column="CAR_CORPNAME" property="carCorpname"/>
+		<result column="CAR_MODELNAME" property="carModelname"/>
+		<result column="CAR_MPRICE" property="carMprice"/>
+		<result column="CAR_MPATH" property="carMpath"/>
+		<result column="CAR_MIMAGE_NUM" property="carMimageNum"/>
+	</resultMap>
+	
+	<!-- 차 상세 리스트 -->
+	<select id="cardetail_list_all" resultMap="cardetailBean">
+		select * from car_mdetail
+	</select>
+	
+		<!-- 차판매 상세 정보 -->
+	<select id="cardetail" resultMap="cardetailBean">
+		select CAR_DETAIL_NUM,  CARMODEL_NUM, CARCORP_NUM, CAR_DETAIL, CAR_TRANS, 
+			CAR_OIL,  CAR_CC, CAR_HP,  CAR_TORQUE, CAR_LENGTH, 
+			CAR_WIDTH, CAR_HEIGHT, CAR_SIMAGE, CAR_CORPNAME, CAR_MODELNAME, 
+			CAR_MPRICE, CAR_MPATH, CAR_MIMAGE_NUM  from CAR_MDETAIL where CAR_DETAIL_NUM =#{car_detail_num}
+	</select>
+</mapper>
+

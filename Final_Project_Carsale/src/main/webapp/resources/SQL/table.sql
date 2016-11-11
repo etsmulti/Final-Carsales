@@ -22,8 +22,11 @@ CREATE TABLE CAR_BOARD
         PRIMARY KEY (BOARD_NUM)
 );
 
+select * from car_board;
 delete from CAR_BOARD;
 
+select MAX(board_num) from car_board;
+	  
 CREATE TABLE CAR_BOARD_REPLY
 (
         REPLY_NUM number ,

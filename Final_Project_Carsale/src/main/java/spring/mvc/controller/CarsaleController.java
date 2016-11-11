@@ -57,18 +57,21 @@ public class CarsaleController {
 		request.setAttribute("carcorpList", carsaleDAO.getCarcorpList());
 		request.setAttribute("carmodelList", carsaleDAO.getCarmodelList());
 		request.setAttribute("cardetailList", carsaleDAO.getCardetailList());
-	
+		
 		mav.setViewName("carsale/carsale_list");
 		
 		return mav;
 	}
 	
-	@RequestMapping(value = "/CarsaleDetail.cs", method = RequestMethod.POST)
-	public ModelAndView carsale_detail(@RequestParam("dmaker") String dmaker) {
+	@RequestMapping(value = "/CarsaleDetail.cs", method = RequestMethod.GET)
+	public ModelAndView carsale_detail(@RequestParam("num") String num,
+			HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("자동차 상세 호출");
 		
 		ModelAndView mav = new ModelAndView();
-		//mav.addObject("list", carsaleDAO.getCarsale(saleNum));
+
+		request.setAttribute("cardetailList", carsaleDAO.getCardetailList());
+		
 		mav.setViewName("carsale/carsale_detail");
 		
 		return mav;

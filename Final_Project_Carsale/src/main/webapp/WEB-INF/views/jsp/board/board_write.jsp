@@ -16,7 +16,7 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link rel=stylesheet href="css/global.css">
+<link rel=stylesheet href="./resources/css/global.css">
 
 </head>
 <body>	
@@ -24,20 +24,22 @@
 	<jsp:include page="/resources/global/header.jsp"></jsp:include>
 	<h2 align="center">자유 게시판 입력</h2>
 	<div align="center">
-		<form action="./boardadd.bo" enctype="multipart/form-data"
-			method="get">
+		<form action="./boardWriteProcess.bo" enctype="multipart/form-data"
+			method="POST">
 			<table>
 				<tr>
 					<th>제목</th>
-					<td><input type="text" name="title" size="58" /></td>
-				</tr>
-				<tr>
-					<th>작성자</th>
-					<td><input type="text" name="writer" size="58" /></td>
+					<td><div class="col-sm-12">
+							<input type="text" class="form-control" id="title" name="title" placeholder="제목">
+						</div> </td>
 				</tr>
 				<tr>
 					<th>내용</th>
-					<td><textarea rows="20" cols="60" name="content" /></textarea></td>
+					<td>
+						<div class="col-sm-12">
+							<textarea class="form-control" rows="20" cols="60" id="content" name="content"></textarea>
+						</div>
+					</td>
 				</tr>
 				<tr>
 					<td style="font-family: 돋음; font-size: 12">

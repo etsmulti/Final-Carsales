@@ -2,36 +2,23 @@ package spring.mvc.model;
 
 import java.sql.Date;
 public class MemberBean {
-        /** MEMBER_ID. */
-        private String memberId;
-        /** MEMBER_PW. */
-        private String memberPw;
-        /** MEMBER_NAME. */
-        private String memberName;
-        /** MEMBER_JUMIN1. */
-        private Integer memberJumin1;
-        /** MEMBER_JUMIN2. */
-        private Integer memberJumin2;
-        /** MEMBER_EMAIL. */
-        private String memberEmail;
-        /** MEMBER_EMAIL_GET. */
-        private String memberEmailGet;
-        /** MEMBER_MOBILE. */
-        private String memberMobile;
-        /** MEMBER_PHONE. */
-        private String memberPhone;
-        /** MEMBER_ZIPCODE. */
-        private String memberZipcode;
-        /** MEMBER_ADDR1. */
-        private String memberAddr1;
-        /** MEMBER_ADDR2. */
-        private String memberAddr2;
-        /** MEMBER_ADMIN. */
-        private Integer memberAdmin;
-        /** MEMBER_JOIN_DATE. */
-        private Date memberJoinDate;
-        /** MEMBER_IMAGE. */
-        private String memberImage;
+        /** MEMBER_ID. */        private String memberId;
+        /** MEMBER_PW. */        private String memberPw;
+        /** MEMBER_NAME. */        private String memberName;
+        /** MEMBER_JUMIN1. */        private Integer memberJumin1;
+        /** MEMBER_JUMIN2. */        private Integer memberJumin2;
+        /** MEMBER_EMAIL. */        private String memberEmail;
+        /** MEMBER_EMAIL_GET. */        private String memberEmailGet;
+        /** MEMBER_MOBILE. */        private String memberMobile;
+        /** MEMBER_PHONE. */        private String memberPhone;
+        /** MEMBER_ZIPCODE. */        private String memberZipcode;
+        /** MEMBER_ADDR1. */        private String memberAddr1;
+        /** MEMBER_ADDR2. */        private String memberAddr2;
+        /** MEMBER_ADMIN. */        private Integer memberAdmin;
+        /** MEMBER_JOIN_DATE. */        private Date memberJoinDate;
+        /** MEMBER_IMAGE. */        private String memberImage;
+        
+        
         public String getMemberId() {
                 return memberId;
         }

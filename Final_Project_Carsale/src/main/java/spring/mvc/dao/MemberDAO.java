@@ -24,42 +24,37 @@ public class MemberDAO {
 	
 	public MemberDAO() {	}
 	
+	// 멤버 저장
 	public int insertMember(MemberBean mb) throws SQLException{
 		int result = 0;
-		result = sqlSession.insert("member_insert");
+		result = sqlSession.insert("member_insert",mb);
 		return result;
 	}
 	
-
+	// 아이디 찾기
 	public MemberBean getMember(String id) throws SQLException{
 		MemberBean member=null;
-
+		System.out.println("id : "+id);
 		member = sqlSession.selectOne("member_find",id);
 		return member;
 	}
 	
+	// 멤버 찾기(로그인)
 	public int userCheck(String id, String pw) throws SQLException{
 		MemberBean member=null;
-		int result=-1;
+		int result=0;
 		member = getMember(id);
 		
-		if(member.getMemberPw().equals(pw))
-			result=1;
+		
+		if(member==null) // 멤버가 없다
+			result = -1;
+		else if(member.getMemberPw().equals(pw)) //로그인 성공
+			result = 1;
+		else
+			result = 0;//멤버가 있는데 비밀번호가 틀리다
 		
 		return result;
 	}
-	
-	public int confirmId(String id) throws SQLException{
-		MemberBean member=null;
-		int result=-1;
-		member = getMember(id);
-		
-		if(member!=null)
-			result=1;
-		
-		return result;
-	}
-	
 	
 	public void updateMember(MemberBean mb) throws SQLException{
 		

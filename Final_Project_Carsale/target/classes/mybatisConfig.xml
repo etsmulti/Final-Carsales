@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--  이게머야 -->
+ <configuration>
+	<typeAliases>    
+		<typeAlias alias="carsaleBean" type="spring.mvc.model.CarsaleBean" />
+		<typeAlias alias="carcorpBean" type="spring.mvc.model.CarCorpBean" />
+		<typeAlias alias="carmodelBean" type="spring.mvc.model.CarModelBean" />
+		<typeAlias alias="cardetailBean" type="spring.mvc.model.CarMdetailBean" />
+		<typeAlias alias="memberBean" type="spring.mvc.model.MemberBean" />
+		<typeAlias alias="boardBean" type="spring.mvc.model.BoardBean" />
+	</typeAliases>	
+	<mappers>
+	    <mapper resource="mapper/carsale.xml" />
+	    <mapper resource="mapper/cardetail.xml" />
+	    <mapper resource="mapper/member.xml" />
+	    <mapper resource="mapper/board.xml" />
+	</mappers>
+</configuration>

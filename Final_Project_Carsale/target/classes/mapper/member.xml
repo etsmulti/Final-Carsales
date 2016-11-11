@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="spring.mvc.model.MemberBean"> 
+	<resultMap type="spring.mvc.model.MemberBean" id="memberBean">
+		<result column="MEMBER_ID" property="memberId"/>
+		<result column="MEMBER_PW" property="memberPw"/>
+		<result column="MEMBER_NAME" property="memberName"/>
+		<result column="MEMBER_JUMIN1" property="memberJumin1"/>
+		<result column="MEMBER_JUMIN2" property="memberJumin2"/>
+		<result column="MEMBER_EMAIL" property="memberEmail"/>
+		<result column="MEMBER_EMAIL_GET" property="memberEmailGet"/>
+		<result column="MEMBER_MOBILE" property="memberMobile"/>
+		<result column="MEMBER_PHONE" property="memberPhone"/>
+		<result column="MEMBER_ZIPCODE" property="memberZipcode"/>
+		<result column="MEMBER_ADDR1" property="memberAddr1"/>
+		<result column="MEMBER_ADDR2" property="memberAddr2"/>
+		<result column="MEMBER_ADMIN" property="memberAdmin"/>
+		<result column="MEMBER_JOIN_DATE" property="memberJoinDate"/>
+		<result column="MEMBER_IMAGE" property="memberImage"/>
+	</resultMap>
+	
+	<!-- 멤버 찾기 -->
+	<select id="member_find" resultMap="memberBean" parameterType="String">
+	  	select * from member where MEMBER_ID=#{memberId}
+	</select>
+	
+	<!-- 멤버 추가 -->
+	<select id="member_insert" parameterType="memberBean">
+	  	insert into member values (#{memberId},
+	 #{memberPw}, #{memberName}, #{memberJumin1},
+	 #{memberJumin2}, #{memberEmail}, #{memberEmailGet},
+	  #{memberMobile}, #{memberPhone}, #{memberZipcode}
+	  , #{memberAddr1}, #{memberAddr2}, #{memberAdmin}
+	  , #{memberJoinDate}, #{memberImage}) 
+	</select>
+	
+	<!-- 멤버 삭제 -->
+	<select id="member_delete" parameterType="memberBean">
+		delete from member where MEMBER_ID=#{memberId}
+	</select>
+	
+	<!-- 멤버 수정 -->
+	<select id="member_update" parameterType="memberBean">
+	  	update member set MEMBER_PW=#{memberPw},MEMBER_NAME=#{memberName},
+			MEMBER_EMAIL=#{memberEmail},MEMBER_EMAIL_GET=#{memberEmailGet},MEMBER_MOBILE=#{memberMobile},
+			MEMBER_PHONE=#{memberPhone},MEMBER_ZIPCODE=#{memberZipcode},MEMBER_ADDR1=#{memberAddr1},
+			MEMBER_ADDR2=#{memberAddr2} where MEMBER_ID=#{memberId}
+	</select>
+</mapper>
+
