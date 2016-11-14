@@ -4,7 +4,7 @@
 <%@ page import="spring.mvc.model.*"%>
 
 <%
-	List<BoardBean> list = (List<BoardBean>)request.getAttribute("list");
+	List<BoardBean> list = (List<BoardBean>) request.getAttribute("list");
 %>
 
 <!DOCTYPE html>
@@ -24,78 +24,89 @@
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <link rel=stylesheet href="./resources/css/global.css">
-<link rel=stylesheet href="./resources/css/listview.css">
+<link rel=stylesheet href="./resources/css/board.css">
 <!-- CSS, Script End -->
-<style type="text/css">
-.pen {
-	font-weight: bold;
-	color: black;
-}
-</style>
 
-<style type="text/css">
-table {
-	margin-top: 50px;
-	width: 80%;
-	height: auto;
-	color: gray;
-	font-size: small;
-}
-</style>
 </head>
 <body>
 	<jsp:include page="/resources/global/header.jsp"></jsp:include>
 	<!-- 헤더 끝 -->
-	<h2 align="center">자유 게시판</h2>
-	<div align="center">
-		<table class="listview">
-			<tr align="center" valign="middle" height="15">
-				<td class="line" colspan="5" style="font-size: 15px;"></td>
-			</tr>
+	<div class="container">
+		<h2 align="center">자유 게시판</h2>
+		<div align="center">
+			<table class="board">
+				<tr align="center" valign="middle" height="15">
+					<td class="line" colspan="6"></td>
+				</tr>
 
-			<tr align="center" style="font-size: 10pt">
-				<td class="line" width="10%">
-					<div align="center">번호</div>
-				</td>
-				<td class="line" width="20%">
-					<div align="center">작성자</div>
-				</td>
-				<td class="line" width="45%">
-					<div align="center">제목</div>
-				</td>
-				<td class="line" width="20%">
-					<div align="center">날짜</div>
-				</td>
-				<td class="line" width="10%">
-					<div align="center">따봉</div>
-				</td>
-			</tr>
+				<tr class="category">
+					<th width="10%">
+						<div align="center">글번호</div>
+					</th>
+					<th width="50%">
+						<div align="center">글제목</div>
+					</th>
+					<th width="10%">
+						<div align="center">작성자</div>
+					</th>
+					<th width="13%">
+						<div align="center">작성일</div>
+					</th>
+					<th width="12%">
+						<div align="center">조회수</div>
+					</th>
+					<th width="5%">
+						<div align="center">좋아요</div>
+					</th>
+				</tr>
+				<%
+					if(list.size()==0){
+				%>
+						<tr class="content" align="center">
+							<td colspan="6">게시물이 없습니다.</td>
+						</tr>
+				<%
+					}
+				%>
 
+				<%
+					for (int i = 0; i < list.size(); i++) {
+						BoardBean board = (BoardBean) list.get(i);
+				%>
 
-			<%
-				for (int i = 0; i < list.size(); i++) {
-					BoardBean board = (BoardBean)list.get(i);
-			%>
+				<tr class="content" align="center">
+					<td><%=board.getBoardNum()%></td>
+					<td class="title"><a
+						href="./BoardDetail.bo?num=<%=board.getBoardNum()%>"> <%=board.getBoardSubject()%></a>
+					</td>
+					<td><%=board.getMemberId()%></td>
+					<td><%=board.getBoardDate().getYear() + 1900%> .<%=board.getBoardDate().getMonth() + 1%>
+						.<%=board.getBoardDate().getDate()%></td>
+					<td><%=board.getBoardCount()%></td>
+					<td><%=board.getBoardGood()%></td>
+				</tr>
 
-			<tr align="center">
-				<td class="line"><%=board.getBoardNum()%></td>
-				<td class="line"><%=board.getMemberId()%></td>
-				<td class="line">
-					<a href="./boardDetail.bo?num=<%=board.getBoardNum()%>"> <%=board.getBoardSubject()%></a>
-				</td>
-				<td class="line"><%=board.getBoardDate()%></td>
-				<td id="good"><button><%=board.getBoardGood()%></button></td>
-			</tr>
-			<%
-				}
-			%>
+				<%
+					}
+				%>
 
-		</table>
-		<p>
-			<a href="./boardWrite.bo"> <img class="pen_img"
-				src="http://cafeimgs.naver.net/cafe4/ico-btn-write.gif" width="10"
-				height="10" /><span class="pen">글쓰기</span></a>
-		</p>
+			</table>
+			<p align="right">
+				<%
+					String logon_id = (String) session.getAttribute("id");
+					if (logon_id != null) {
+				%>
+				<button>
+					<a href="./BoardWrite.bo"> <img class="pen_img"
+						src="http://cafeimgs.naver.net/cafe4/ico-btn-write.gif" width="10"
+						height="10" /><span class="pen">글쓰기</span></a>
+				</button>
+				<%
+					}
+				%>
+
+			</p>
+		</div>
 	</div>
 
 </body>

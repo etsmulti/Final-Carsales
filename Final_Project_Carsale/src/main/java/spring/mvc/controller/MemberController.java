@@ -68,14 +68,12 @@ public class MemberController {
 			out.println("history.go(-1);");
 		} else{// 성공시
 			session.setAttribute("id", id); // 세션 로그인 유지
-
 			out.println("location='./'");
 		}
 
 		out.println("</script>");
 		out.close();
 		return null;
-
 	}
 
 	///////////////////////////////////////// 로그 아웃
@@ -148,7 +146,7 @@ public class MemberController {
 			int index = fileName.lastIndexOf(".");
 			String fileExtension = fileName.substring(index + 1);
 			/**** 확장자 구하기 끝 ***/
-			String refileName = "PROFILE" + mb.getMemberId() + "." + fileExtension;// 새로운
+			String refileName = "PROFILE_" + mb.getMemberId() + "." + fileExtension;// 새로운
 																					// 파일명을
 																					// 저장
 			String fileDBName = "/" + refileName;

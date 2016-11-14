@@ -22,6 +22,20 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<result column="SALE_INPUT_DATE" property="saleInputDate"/>
 	</resultMap>
 	
+	
+   <!-- 차판매 자동차 검색 -->
+	<select id="selectCarsale" parameterType="int"  resultMap="carsaleBean" >
+		select * from carsale where sale_num = #{saleNum}
+	</select>
+	
+	<!-- 차판매 상세 정보 -->
+	<!-- <select id="carsale_detail" parameterType="String" resultType="carsaleBean">
+		select CAR_DETAIL_NUM,  CARMODEL_NUM, CARCORP_NUM, CAR_DETAIL, CAR_TRANS, 
+			CAR_OIL,  CAR_CC, CAR_HP,  CAR_TORQUE, CAR_LENGTH, 
+			CAR_WIDTH, CAR_HEIGHT, CAR_SIMAGE, CAR_CORPNAME, CAR_MODELNAME, 
+			CAR_MPRICE, CAR_MPATH, CAR_MIMAGE_NUM  from CAR_MDETAIL where CAR_DETAIL_NUM =#{car_detail_num}
+	</select> -->
+	
 	<!-- 차판매 상세번호로 리스트 -->
 	<select id="carsale_list_by_detail" resultMap="carsaleBean" parameterType="String">
 	  	select * from carsale where CAR_DETAIL_NUM=#{cardetailNum}
@@ -55,5 +69,19 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select * from car_model
 	</select>
 	
+	<!-- 차 판매 입력 -->
+	<insert id="insertCarsale" parameterType="carsaleBean">
+		insert into carsale (SALE_NUM, CAR_DETAIL_NUM,  MEMBER_ID, SALE_CAR_NUMBER, SALE_TITLE,	
+						 SALE_CAR_COLOR, SALE_CAR_PRICE, SALE_CONTENT, SALE_READCOUNT, SALE_USE_KM, 
+					SALE_IMAGE_PATH, SALE_IMAGE_NUM, SALE_IMAGE_MAIN, SALE_BUYCAR_DATE, SALE_INPUT_DATE)
+					values (#{saleNum},#{carDetailNum},#{memberId},#{saleCarNumber},#{saleTitle},#{saleCarColor},#{saleCarPrice},
+					#{saleContent},#{saleReadcount},#{saleUseKm},#{saleImagePath},
+					#{saleImageNum},#{saleImageMain},#{saleBuycarDate}, sysdate)
+	</insert>
+	
+	<!-- 마지막 차판매 개수??? -->
+	<select id="maxsaleNum" resultType="String">
+		select max(sale_num) from carsale
+	</select>
 </mapper>
 

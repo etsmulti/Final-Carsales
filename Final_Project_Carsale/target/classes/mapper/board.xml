@@ -28,12 +28,6 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		where rnum<![CDATA[>=]]>#{startrow} 
 		and rnum<![CDATA[<=]]>#{endrow} -->
     </select>
-    
-    <!--  게시판 총 게시물 수 -->
-	<select id="board_count" resultType="int">
-	  select count(board_num) from car_board
-	</select>
-	
 	
     <!-- 게시판 상세 내용  -->
 	<select id="board_detail" parameterType="int" resultMap="boardBean">
@@ -62,7 +56,25 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="board_last_num" resultType="String">
 	  select MAX(board_num) from car_board
 	</select>
+	
+	<update id="count_good" parameterType="int">
+	  update car_board set BOARD_GOOD=#{boardGood}+1
+	  where board_num=#{boardNum}   
+	</update>
+	
+	<update id="count_hit" parameterType="int">
+	  update car_board set BOARD_COUNT=#{boardCount}+1
+	  where board_num=#{boardNum}   
+	</update>
 			
+			
+			
+			
+			
+			
+			
+			
+	 
 	<!-- 
     관리자 검색 목록(제목) 보기(미완성)
     <select id="aBoard_search_list1" parameterType="java.util.Map" resultType="adminBoard">	       

@@ -63,6 +63,16 @@
 				</thead>
 				<tbody>
 					<%
+						if(carsaleList.size()==0){
+					%>
+							<tr class="content" align="center">
+								<td colspan="6">게시물이 없습니다.</td>
+							</tr>
+					<%
+						}
+					%>
+				
+					<%
 						int i, j;
 						for (i = 0; i < carsaleList.size(); i++) {
 							CarsaleBean csb = carsaleList.get(i);
@@ -105,10 +115,16 @@
 
 						</span> <span class=""> <!-- hotmark -->
 						</span></td>
-						<td class="yer"><%=csb.getSaleBuycarDate()%></td>
-						<td class="km"><%=csb.getSaleUseKm()%></td>
-						<td class="price"><strong><%=csb.getSaleCarPrice()%></strong>만원</td>
-						<td><%=csb.getSaleInputDate()%></td>
+						<td class="yer">
+						<%=csb.getSaleBuycarDate().getYear()+1900%>년
+						<%=csb.getSaleBuycarDate().getMonth()%>월</td>
+						<td class="km"><%=csb.getSaleUseKm()%> km</td>
+						<td class="price"><strong><%=csb.getSaleCarPrice()%></strong> 만원</td>
+						<td>
+						<%=csb.getSaleInputDate().getYear()+1900%>
+						.<%=csb.getSaleInputDate().getMonth()+1%>
+						.<%=csb.getSaleInputDate().getDate()%>
+						</td>
 					</tr>
 					<%
 						}

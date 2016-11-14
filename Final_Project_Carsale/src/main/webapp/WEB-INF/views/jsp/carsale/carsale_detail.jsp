@@ -15,7 +15,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>차량 상세정보</title>
 <link rel="stylesheet"
         href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="http://fonts.googleapis.com/css?family=Lato"
@@ -26,10 +26,10 @@
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script
         src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel=stylesheet href="css/global.css">
+<link rel=stylesheet href="./resources/css/global.css">
 <style type="text/css">
 #wrap {
-        width: 1000px;
+        width: 100%;
         height: 950px;
         margin: 0 auto;
         overflow: hidden;
@@ -71,7 +71,7 @@
                         <!-- 첫번째 기본 사진 -->
                         <img name="img" width="640" src="<%=img%>1.jpg">
                         <!-- 작은사진 -->
-                        <table width="620" border="0">
+                        <table>
                                                             <tr>
                               <td onmouseover = "set_img('<%=img%>1.jpg')">
                                 <img  width="125px" src="<%=img%>1.jpg">
@@ -148,7 +148,7 @@
                 </div>
                 <div id="aside">
                         <h4>판매 차량 정보</h4>
-                        <table class="detailright" style="width: 100%" cellspan="5">
+                        <table class="detailright">
                                 <tr>
                                         <td width="30%">가격</td>
                                         <td><%=csb.getSaleCarPrice()%>만원</td>

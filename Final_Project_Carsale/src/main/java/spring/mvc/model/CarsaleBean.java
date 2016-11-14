@@ -1,6 +1,7 @@
 package spring.mvc.model;
 
 import java.util.Date;
+
 public class CarsaleBean{
         /** SALE_NUM. */
         private Integer saleNum;

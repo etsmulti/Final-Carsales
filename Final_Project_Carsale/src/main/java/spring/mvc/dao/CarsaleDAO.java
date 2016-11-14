@@ -37,14 +37,9 @@ public class CarsaleDAO {
 			carsalelist = sqlSession.selectList("carsale_list_by_corp",carcorpNum);
 		}else{
 			carsalelist = sqlSession.selectList("carsale_list_all");
-			System.out.println("차판매 모든 리스트 호출");
 		}
 		
 		System.out.println("차판매 자동차 대수 : "+carsalelist.size());
-		
-		for(int i=0;i<carsalelist.size();i++){
-			System.out.println("차판매 리스트 : "+carsalelist.get(i));
-		}
 		
 		return carsalelist;
 	}
@@ -52,61 +47,50 @@ public class CarsaleDAO {
 	public List<CarCorpBean> getCarcorpList() {
 		List<CarCorpBean> carcorplist = new ArrayList<CarCorpBean>();
 		carcorplist = sqlSession.selectList("carcorp_list_all");
-		
-		for(int i=0;i<carcorplist.size();i++){
-			System.out.println("회사 : "+carcorplist.get(i).getCarcorp());
-		}
-		
+	
 		return carcorplist;
 	}
 
 	public List<CarModelBean> getCarmodelList() {
 		List<CarModelBean> carmodellist = new ArrayList<CarModelBean>();
 		carmodellist = sqlSession.selectList("carmodel_list_all");
-		for(int i=0;i<carmodellist.size();i++){
-			System.out.println("모델 : "+carmodellist.get(i).getCarmodel());
-		}
-		
+
 		return carmodellist;
 	}
 
 	public List<CarMdetailBean> getCardetailList() {
 		List<CarMdetailBean> cardetaillist = new ArrayList<CarMdetailBean>();
 		cardetaillist = sqlSession.selectList("cardetail_list_all");
-		
-		System.out.println("상세개수 : "+cardetaillist.size());
-		for(int i=0;i<cardetaillist.size();i++){
-			System.out.println("상세 : "+cardetaillist.get(i).getCarDetail());
-		}
 
 		return cardetaillist;
 	}
 
 
 	public CarMdetailBean getCarMdetail(String carMNum) throws SQLException {
-
-		CarMdetailBean carmdetail = null;
-
-		return carmdetail;
+		return sqlSession.selectOne("selectCarMdetail",  carMNum);
 	}
 
 	public CarsaleBean getCarsale(int saleNum) throws SQLException {
-
-		CarsaleBean carsale = null;
-
-		return carsale;
+		return sqlSession.selectOne("selectCarsale",  saleNum);
 	}
 
 	public MemberBean getMember(String memberId){
-		MemberBean member = null;
-
-		return member;
+		return sqlSession.selectOne("selectMember",  memberId);
 	}
 	
 
-	public boolean insertCarsale(CarsaleBean csb) throws SQLException {
-		String sql = null;
-		boolean result = false;
-		return result;
+	public void insertCarsale(CarsaleBean csb) throws SQLException {
+		 sqlSession.insert("insertCarsale", csb);
+	}
+	
+    public int getSaleNum() {
+		String res = sqlSession.selectOne("maxsaleNum");
+				
+		if (res == null)
+			res = "0";
+
+		int maxsaleNum = Integer.parseInt(res);
+
+		return maxsaleNum;
 	}
 }

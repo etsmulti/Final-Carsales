@@ -20,13 +20,13 @@ function goSearch(){
 	<ul class="gnb">
 		<li><a href="./CarsaleList.cs?dmaker=&dmodel=&ddetail=" class="gnb1" title="검색"><strong>매물
 					검색</strong></a></li>
-		<li><a href=# class="gnb2" title="내차 판매"><strong>내차 판매</strong></a></li>
-		<li><a href="./boardList.bo" class="gnb3" title="자유 게시판"><strong>자유
+		<li><a href="./CarsaleInsert.cs" class="gnb2" title="내차 판매"><strong>내차 판매</strong></a></li>
+		<li><a href="./BoardList.bo" class="gnb3" title="자유 게시판"><strong>자유
 					게시판</strong></a></li>
 	</ul>
 	<% if(login){ %>
 	<ul class="util">
-		<li class="id"><strong><%=memberId%></strong>님 환영합니다.</li>
+		<li class="id"><strong><a href="./MemberUpdate.me"><%=memberId%></a></strong>님 환영합니다.</li>
 		<li><a href="./MemberLogout.me" class="logout" title="로그아웃">로그아웃</a></li>
 	</ul>
 	<% } else{ %>

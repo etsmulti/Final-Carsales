@@ -1,7 +1,7 @@
 package spring.mvc.model;
 
 import java.util.Date;
-		
+
 public class BoardBean {
         /** BOARD_NUM. */        private Integer boardNum;
         /** MEMBER_ID */        private String memberId;

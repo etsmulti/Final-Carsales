@@ -20,7 +20,7 @@
 </head>
 <body>
     
-    <form name="delete" action="./boardDelete.bo?num=<%=num %>" 
+    <form name="delete" action="./BoardDelete.bo?num=<%=num %>" 
 	method="post">
     <table>
         <tr>

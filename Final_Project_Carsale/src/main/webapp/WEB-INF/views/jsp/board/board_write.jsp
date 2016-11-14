@@ -20,11 +20,10 @@
 
 </head>
 <body>	
-
 	<jsp:include page="/resources/global/header.jsp"></jsp:include>
 	<h2 align="center">자유 게시판 입력</h2>
 	<div align="center">
-		<form action="./boardWriteProcess.bo" enctype="multipart/form-data"
+		<form action="./BoardWriteProcess.bo" enctype="multipart/form-data"
 			method="POST">
 			<table>
 				<tr>
@@ -49,8 +48,15 @@
 				</tr>
 
 				<tr>
-					<td colspan="2" align="center"><input type="submit"
-						value="등록하기"></td>
+					<td colspan="2" align="center">
+						<input type="submit" value="등록">
+						<button type="button" onclick="cancel()">취소</button>
+						<script>
+							function cancel(){
+								location.href = './boardList.bo';
+							}
+						</script>
+					</td>
 				</tr>
 			</table>
 		</form>
